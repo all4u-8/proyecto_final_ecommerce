@@ -1,0 +1,99 @@
+
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Color de fondo suave */
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+  margin-top: 2rem;
+}
+
+/* Estilo para la tarjeta del producto */
+.card {
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 8px;
+}
+
+.card img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* Estilo para el título del producto */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Botón personalizado */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Estilo para el selector de cantidad */
+.item-quantity-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-quantity-selector .btn {
+  width: 40px;
+  height: 40px;
+}
+
+/* Estilo para el pie de página (Footer) */
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+/* Estilo para el widget del carrito */
+.cart-widget {
+  position: relative;
+}
+
+.cart-widget .badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #dc3545;
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px 8px;
+}
+
+/* Estilo para el botón de agregar al carrito */
+.btn-add-to-cart {
+  margin-top: 1rem;
+}
