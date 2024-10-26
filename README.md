@@ -25,7 +25,7 @@ Sigue los siguientes pasos para clonar y ejecutar el proyecto localmente:
 
 1. Clona el repositorio:
    ```bash
-   git clone [https://github.com/all4u-8/proyecto_final_ecommerce.git](https://github.com/all4u-8/proyecto_final_ecommerce.git)
+   git clone https://github.com/all4u-8/proyecto_final_ecommerce.git
    ```
 2. Navega al directorio del proyecto:
    ```bash
